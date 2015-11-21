@@ -1,0 +1,19 @@
+Scanning the BeforeRelease file, input the Reader, assigning a buffered reader
+
+(Most of the examples we've seen so far use unbuffered I/O. This means each read or write request is handled directly by the underlying OS. This can make a program much less efficient, since each such request often triggers disk access, network activity, or some other operation that is relatively expensive.
+
+To reduce this kind of overhead, the Java platform implements buffered I/O streams. Buffered input streams read data from a memory area known as a buffer; the native input API is called only when the buffer is empty. Similarly, buffered output streams write data to a buffer, and the native output API is called only when the buffer is full.)
+
+while there is a line:
+
+check if the line contains a comma, go on the next line
+
+if the line contains ".java", 
+
+
+
+Code is organized in a few sections:
+Class OwnerScanner:
+create arrays for the ownership name and the file, initialize a double array
+
+method for Scanning a file where a file is given with location, and we check if a line contains a comma, then 
